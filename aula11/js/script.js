@@ -10,5 +10,4 @@ let num2 = prompt('Digite outro número')
 num1 = parseFloat(num1);
 num2 = parseFloat(num2);
 console.log(num1 + num2);
-let soma = num1 + num2;
-alert(soma);
+alert(`O resultado da sua conta foi: ${num1 + num2}`);
